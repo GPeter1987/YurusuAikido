@@ -9,4 +9,4 @@
   - Hungarian
   
 # Link:
-
+  https://gpeter1987.github.io/magyarorszagiNishioAikidoCsoport/
