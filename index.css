@@ -1,6 +1,8 @@
 body {
     max-width: 800px;
     margin: auto;
+    height:auto;
+    font-family: 'Livvic', sans-serif;
 }
 
 #logoCont {
@@ -14,9 +16,11 @@ body {
 
 #hText {
   position: relative;
-  top:-100px;
-  padding-left: 15px;
+  top:-115px;
+  padding-left: 35px;
   padding-right: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
 }
 
 #news {
@@ -37,7 +41,6 @@ body {
   float: left;
   margin:50px;
   border-radius:50%;
-  
 }
 
 /* SlideShow elemek */
@@ -120,6 +123,7 @@ slide p {
   width:800px;
   height: 400px;
   top:410px;
+  border-radius:20px;
 }
 
 .textBlock {
@@ -130,7 +134,7 @@ slide p {
 }
 
 .dojoName {
-  
+  font-family: 'Oswald', sans-serif;
 }
 
 .dojoDescription {
@@ -138,9 +142,7 @@ slide p {
 }
 
 .socialM {
-  position:absolute;
-  left:-5px;
-  background-color: aquamarine;
+  position:static;
   text-align: center;
   width:450px;
   height:75px;
@@ -156,6 +158,8 @@ slide p {
 }
 
 .socialM, li, a {
+  position:relative;
+  top:-12.5px;
   display: inline-block;
   font-size: 40px;
 }
