@@ -1,3 +1,12 @@
+/*
+Színkókod:
+  Vörös - #C22F17
+  Szürke - #B9B9B9
+  Fehér - #FFFFFF
+  Barna - #D1C3B7
+  Fekete - #000000
+*/
+
 body {
     max-width: 800px;
     margin: auto;
@@ -10,8 +19,9 @@ body {
   top:0;
   width:800px;
   height:100px;
-  background-color: antiquewhite;
+  background-color: #D1C3B7;
   z-index: 3;
+  border-radius: 5px;
 }
 
 #hText {
@@ -121,9 +131,10 @@ slide p {
 .dojo {
   position:static;
   width:800px;
-  height: 400px;
+  height:auto;
   top:410px;
   border-radius:20px;
+  background-color: ;
 }
 
 .textBlock {
@@ -131,6 +142,7 @@ slide p {
   left:300px;
   width:450px;
   height:auto;
+  padding-left:5px;
 }
 
 .dojoName {
@@ -138,7 +150,7 @@ slide p {
 }
 
 .dojoDescription {
-  background-color:grey;
+  background-color:;
 }
 
 .socialM {
@@ -162,4 +174,19 @@ slide p {
   top:-12.5px;
   display: inline-block;
   font-size: 40px;
+  color:#C22F17 ;
+}
+
+footer {
+  display: block;
+  position: relative;
+  text-align: center;
+  bottom: -420px;
+  background-color: #D1C3B7;
+  height:50px;
+  border-radius: 5px;
+}
+
+footer, p {
+  padding-top:0.1px;
 }
