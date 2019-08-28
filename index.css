@@ -10,7 +10,6 @@ Fontok:
   font-family: 'Livvic', sans-serif;
   font-family: 'Oswald', sans-serif;
   font-family: 'Marcellus', serif;
-  /* fejléc szöveg *//*
   font-family: 'Cinzel Decorative', cursive;
 */
 
@@ -34,9 +33,9 @@ body {
 #hText {
   position: relative;
   top:-132px;
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Marcellus', serif;
   font-size: 40px;
-  font-weight: 100;
+  font-weight: 900;
   text-align: center;
   
 }
@@ -44,7 +43,7 @@ body {
 /* => Fejléc kép <= */
 #logo {
   width:100px;
-  margin-left:1%;
+  margin-left:2%;
   border-radius: 50px;
   padding-top: 4px;
   /* Feketefehérré alakítás */
@@ -55,7 +54,7 @@ body {
 #logo2 {
   position: absolute;
   top: -2px;
-  left: 693px;
+  left: 685px;
   width:100px;
   border-radius: 70px;
   padding-top: 4px;
