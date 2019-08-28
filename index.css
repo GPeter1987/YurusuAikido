@@ -9,6 +9,9 @@ Színkókod:
 Fontok:
   font-family: 'Livvic', sans-serif;
   font-family: 'Oswald', sans-serif;
+  font-family: 'Marcellus', serif;
+  /* fejléc szöveg *//*
+  font-family: 'Cinzel Decorative', cursive;
 */
 
 body {
@@ -30,10 +33,12 @@ body {
 
 #hText {
   position: relative;
-  top:-115px;
-  font-family: 'Oswald', sans-serif;
+  top:-132px;
+  font-family: 'Cinzel Decorative', cursive;
   font-size: 40px;
+  font-weight: 100;
   text-align: center;
+  
 }
 
 /* => Fejléc kép <= */
@@ -50,7 +55,7 @@ body {
 #logo2 {
   position: absolute;
   top: -2px;
-  left: 690px;
+  left: 693px;
   width:100px;
   border-radius: 70px;
   padding-top: 4px;
@@ -177,7 +182,8 @@ slide p {
 }
 
 .dojoName {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
 }
 
 .dojoDescription {
