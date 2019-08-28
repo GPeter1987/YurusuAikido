@@ -5,6 +5,10 @@ Színkókod:
   Fehér - #FFFFFF
   Barna - #D1C3B7
   Fekete - #000000
+
+Fontok:
+  font-family: 'Livvic', sans-serif;
+  font-family: 'Oswald', sans-serif;
 */
 
 body {
@@ -18,7 +22,7 @@ body {
   position:fixed;
   top:0;
   width:800px;
-  height:100px;
+  height:105px;
   background-color: #D1C3B7;
   z-index: 3;
   border-radius: 5px;
@@ -27,21 +31,42 @@ body {
 #hText {
   position: relative;
   top:-115px;
-  padding-left: 35px;
-  padding-right: 15px;
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
+  text-align: center;
+}
+
+/* => Fejléc kép <= */
+#logo {
+  width:100px;
+  margin-left:1%;
+  border-radius: 50px;
+  padding-top: 4px;
+  /* Feketefehérré alakítás */
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
+}
+
+#logo2 {
+  position: absolute;
+  top: -2px;
+  left: 690px;
+  width:100px;
+  border-radius: 70px;
+  padding-top: 4px;
+  /* Feketefehérré alakítás */
+  -webkit-filter: grayscale(100);
+  filter:grayscale(100);
+  /* Kép tükrözése */
+  transform:scaleX(-1);
+  -webkit-transform:scaleX(-1); 
 }
 
 #news {
   margin-top: 100px;
   height:300px;
 }
-/* Fejléc logó */
-#logo {
-  width:100px;
-  margin-left:75%;
-}
+
 
 /* Dojo logók */
 .logo {
@@ -148,9 +173,7 @@ slide p {
 /* A textblokkon belüli indentálás és szöveg igazítás */
 .tab {
   margin-left:15px;
-  margin-bottom: 5px;
-  margin-top:5px;
-  padding-bottom:10px;
+  margin-top:1px;
 }
 
 .dojoName {
@@ -158,7 +181,9 @@ slide p {
 }
 
 .dojoDescription {
-  background-color:;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+  
 }
 
 .socialM {
