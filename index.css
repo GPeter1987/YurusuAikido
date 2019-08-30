@@ -18,6 +18,9 @@ body {
     margin: auto;
     height:auto;
     font-family: 'Livvic', sans-serif;
+    background-image: url(assets/backGrounds/mncs%20body%20bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
 }
 
 #logoCont {
@@ -26,15 +29,16 @@ body {
   width:800px;
   height:105px;
   background-color: #D1C3B7;
+  background-image: url("assets/backGrounds/navBg.png");
   z-index: 3;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 #hText {
   position: relative;
-  top:-105px;
+  top:-150px;
   font-family: 'Marcellus', serif;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 900;
   text-align: center;
   
@@ -42,13 +46,18 @@ body {
 
 /* => Fejléc kép <= */
 #logo {
-  width:100px;
+  /* Alaplogó formázások */
+ /* width:100px;
   margin-left:2%;
   border-radius: 50px;
-  padding-top: 4px;
+  padding-top: 4px;*/
   /* Feketefehérré alakítás */
   -webkit-filter: grayscale(100);
-  filter: grayscale(100);
+  filter: grayscale(100); 
+  /* pozicionálás második kép */
+  position: relative;
+  height:105px;
+  left:520px;
 }
 
 #logo2 {
@@ -79,6 +88,7 @@ body {
   display: block;
   float: left;
   margin:50px;
+  border:3px solid white;
   border-radius:50%;
 }
 
@@ -107,6 +117,9 @@ slide:nth-child(1) {
   background-image: url(assets/img1.jpg) ;  /* első kép url-je*/
   background-size: cover;
   background-position: center;
+  /* A kép szürkítése */
+  -webkit-filter:greyscale(40);
+  filter: grayscale(40);
 }
 
 slide:nth-child(2) {
@@ -114,6 +127,9 @@ slide:nth-child(2) {
   background-image: url(assets/img2.jpg) ;  /* második kép url-je*/
   background-size: cover;
   background-position: center;
+  /* A kép szürkítése */
+  -webkit-filter:greyscale(40);
+  filter: grayscale(40);
 }
 
 slide:nth-child(3) {
@@ -121,6 +137,9 @@ slide:nth-child(3) {
   background-image: url(assets/img3.jpg) ;  /* harmadik kép url-je*/
   background-size: cover;
   background-position: center;
+  /* A kép szürkítése */
+  -webkit-filter:greyscale(40);
+  filter: grayscale(40);
 }
 
 slide:nth-child(4) {
@@ -128,6 +147,9 @@ slide:nth-child(4) {
   background-image: url(assets/img4.jpg) ;  /* negyedik kép url-je*/
   background-size: cover;
   background-position: center;
+  /* A kép szürkítése */
+  -webkit-filter:greyscale(40);
+  filter: grayscale(40);
 }
 
 slide p {
@@ -204,7 +226,6 @@ slide p {
   margin-left: 5px;
   margin-right: 5px;
   text-align: center;
-  
 }
 
 .socialM, li, a {
@@ -215,14 +236,20 @@ slide p {
   color:#C22F17 ;
 }
 
+.socialM, li, a:hover {
+  color:#B9B9B9;
+  transition: 0.7s;
+}
+
 footer {
   display: block;
   position: relative;
   text-align: center;
   bottom: -420px;
   background-color: #D1C3B7;
+  background-image: url(assets/backGrounds/navBg.png);
   height:50px;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 footer, p {
