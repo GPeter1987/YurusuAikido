@@ -258,3 +258,33 @@ footer {
 footer, p {
   padding-top:0.1px;
 }
+/* Menü elemek */
+nav {
+  position:absolute;
+}
+
+.menuItem{
+  position:relative;
+  font-family: 'Marcellus', serif;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 35px;
+  top:15px;
+  left:-30px;
+  opacity: 0.7;
+  z-index: 10;
+}
+
+ .menuItem:hover {
+  font-weight: 900;
+}
+
+.events {
+  position:relative;
+  top:110px;
+  width:800px;
+}
+
+.event {
+  width:800px; 
+}
