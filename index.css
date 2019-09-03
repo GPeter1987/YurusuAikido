@@ -169,8 +169,10 @@ footer {
   position: relative;
   text-align: center;
   bottom: -420px;
-  background-color: #D1C3B7;
-  background-image: url(assets/backGrounds/navBg.png);
+  background-color: #DEDDDD;
+  /* 
+  background-image: url(assets/backGrounds/navBg.png); 
+  */
   height:50px;
   border-radius: 2px;
 }
