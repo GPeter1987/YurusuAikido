@@ -104,7 +104,10 @@ slider {
 
 slider > * {
   position: absolute;
+  top:10px;
+  /*  Ha van header akkor ez a top beállítás
   top:100px;
+  */
   display: block;
   width:100%;
   height:300px;
